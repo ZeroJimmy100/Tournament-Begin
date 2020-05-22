@@ -2,3 +2,44 @@
 {
    
 }
+
+.TopThreeTourneyBox
+{
+    display: inline-block;
+    min-height: 500px;
+    width: 70%;
+    border-bottom-style: double;
+    border-color: black;
+    background-color: white;
+}
+
+#TopThree
+{
+    color: black;
+    display: block;
+    float: left;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(182, 182, 182);
+    
+}
+
+.TopThreePrizeTournament
+{
+    display: block;
+    min-height: 500px;
+    width: 70%;
+    border-bottom-style: double;
+    border-color: black;
+    background-color: white;
+}
+
+#TopPrize
+{
+    color: black;
+    display: block;
+    float: left;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(182, 182, 182);
+}
