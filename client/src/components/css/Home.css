@@ -3,6 +3,13 @@
    
 }
 
+.TopPart
+{
+    display: block;
+    min-width: 100%;
+    min-height: 510px;
+}
+
 .TopThreeTourneyBox
 {
     display: inline-block;
@@ -11,6 +18,7 @@
     border-bottom-style: double;
     border-color: black;
     background-color: white;
+    
 }
 
 #TopThree
@@ -26,7 +34,7 @@
 
 .TopThreePrizeTournament
 {
-    display: block;
+    display: inline-block;
     min-height: 500px;
     width: 70%;
     border-bottom-style: double;
@@ -41,5 +49,88 @@
     float: left;
     text-decoration: underline;
     text-decoration-style: double;
+    text-decoration-color: rgb(182, 182, 182);
+}
+
+.MyTourneyBox
+{
+    display: block;
+    min-height: 300px;
+    width: 20%;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    float: right;
+    overflow-x: hidden;
+}
+
+#MyTournament
+{
+    color: black;
+    display: block;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(182, 182, 182);
+}
+
+.OngoingTournamentBox
+{
+    display: inline-block;
+    min-height: 500px;
+    width: 70%;
+    border-bottom-style: double;
+    border-color: black;
+    background-color: white;
+}
+
+#OngoingTourney
+{
+    color: black;
+    display: block;
+    float: left;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(182, 182, 182);
+}
+
+.FriendBox
+{
+    display: block;
+    min-height: 300px;
+    width: 20%;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    float: right;
+    overflow-x: hidden;
+}
+
+#Friends
+{
+    color: black;
+    display: block;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(182, 182, 182);
+}
+
+.RecentTourneyPost
+{
+    display: block;
+    min-height: 300px;
+    width: 20%;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    float: right;
+    overflow-x: hidden;
+}
+
+#Recent
+{
+    color: black;
+    display: block;
+    text-decoration: underline;
+    text-decoration-style: solid;
     text-decoration-color: rgb(182, 182, 182);
 }
