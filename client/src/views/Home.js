@@ -18,7 +18,7 @@ class Home extends Component {
                             <h4 id="MyTournament">My Tournament</h4>
                         </div>
                         <div className="FriendBox">
-                            <h4 id="Friends">Friend list</h4>
+                            <h4 id="Friends">Friends list</h4>
                         </div>
                     </div>
                     <div className="TopThreePrizeTournament">
