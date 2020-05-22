@@ -24,6 +24,7 @@ function App() {
               <a href="/">My Tournaments</a>
               <a href="/">Friends</a>
               <a href="/">My Forum</a>
+              <a href="/">Add Forum</a>
             </Navigation>
         </Drawer>
         <Content>
