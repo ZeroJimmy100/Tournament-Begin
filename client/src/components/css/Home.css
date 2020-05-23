@@ -10,6 +10,20 @@
     min-height: 510px;
 }
 
+.MiddlePart
+{
+    display: block;
+    min-width: 100%;
+    min-height: 510px;
+}
+
+.BottomPart
+{
+    display: block;
+    min-width: 100%;
+    min-height: 510px;
+}
+
 .TopThreeTourneyBox
 {
     display: inline-block;
@@ -19,6 +33,34 @@
     border-color: black;
     background-color: white;
     
+}
+
+@media only screen and (max-width: 550px) {
+
+    .TopThreeTourneyBox 
+    {
+        width: 100%;
+        min-height: 500px;
+        overflow-y: hidden;
+    }
+    #TopThree
+    {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .TopThreeTourneyBox 
+    {
+        width: 100%;
+        min-height: 500px;
+        overflow-y: hidden;
+    }
+    #TopThree
+    {
+        font-size: 25px;
+    }
 }
 
 #TopThree
@@ -52,6 +94,34 @@
     text-decoration-color: rgb(182, 182, 182);
 }
 
+@media only screen and (max-width: 550px) {
+
+    .TopThreePrizeTournament
+    {
+        width: 100%;
+        min-height: 500px;
+        overflow-y: hidden;
+    }
+    #TopPrize
+    {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .TopThreePrizeTournament
+    {
+        width: 100%;
+        min-height: 500px;
+        overflow-y: hidden;
+    }
+    #TopPrize
+    {
+        font-size: 25px;
+    }
+}
+
 .MyTourneyBox
 {
     display: block;
@@ -73,6 +143,45 @@
     text-decoration-color: rgb(182, 182, 182);
 }
 
+@media only screen and (max-width: 550px) {
+    .MyTourneyBox
+    {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+        overflow-y: hidden;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+    }
+
+    #MyTournament
+    {
+        float: left;
+    }
+   
+}
+
+@media only screen and (max-width: 400px) {
+    .MyTourneyBox
+    {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+        overflow-y: hidden;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+    }
+
+    #MyTournament
+    {
+        float: left;
+    }
+   
+}
+
+
 .OngoingTournamentBox
 {
     display: inline-block;
@@ -91,6 +200,34 @@
     text-decoration: underline;
     text-decoration-style: double;
     text-decoration-color: rgb(182, 182, 182);
+}
+
+@media only screen and (max-width: 550px) {
+
+    .OngoingTournamentBox 
+    {
+        width: 100%;
+        min-height: 500px;
+        overflow-y: hidden;
+    }
+    #OngoingTourney
+    {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .OngoingTournamentBox 
+    {
+        width: 100%;
+        min-height: 500px;
+        overflow-y: hidden;
+    }
+    #OngoingTourney
+    {
+        font-size: 25px;
+    }
 }
 
 .FriendBox
@@ -114,6 +251,44 @@
     text-decoration-color: rgb(182, 182, 182);
 }
 
+@media only screen and (max-width: 550px) {
+    .FriendBox
+    {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+        overflow-y: hidden;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+    }
+
+    #Friends
+    {
+        float: left;
+    }
+   
+}
+
+@media only screen and (max-width: 400px) {
+    .FriendBox
+    {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+        overflow-y: hidden;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+    }
+
+    #Friends
+    {
+        float: left;
+    }
+   
+}
+
 .RecentTourneyPost
 {
     display: block;
@@ -133,4 +308,42 @@
     text-decoration: underline;
     text-decoration-style: solid;
     text-decoration-color: rgb(182, 182, 182);
+}
+
+@media only screen and (max-width: 550px) {
+    .RecentTourneyPost
+    {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+        overflow-y: hidden;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+    }
+
+    #Recent
+    {
+        float: left;
+    }
+   
+}
+
+@media only screen and (max-width: 400px) {
+    .RecentTourneyPost
+    {
+        display: block;
+        width: 100%;
+        min-height: 300px;
+        overflow-y: hidden;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+    }
+
+    #Recent
+    {
+        float: left;
+    }
+   
 }
