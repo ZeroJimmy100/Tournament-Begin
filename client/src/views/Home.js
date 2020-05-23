@@ -17,18 +17,24 @@ class Home extends Component {
                         <div className="MyTourneyBox">
                             <h4 id="MyTournament">My Tournament</h4>
                         </div>
+                    </div>
+
+                    <div className="MiddlePart">
+                        <div className="TopThreePrizeTournament">
+                            <h4 id="TopPrize">Top Three Prize Tournament</h4>
+                        </div>
                         <div className="FriendBox">
                             <h4 id="Friends">Friends list</h4>
                         </div>
                     </div>
-                    <div className="TopThreePrizeTournament">
-                        <h4 id="TopPrize">Top Three Prize Tournament</h4>
-                    </div>
-                    <div className="OngoingTournamentBox">
-                        <h4 id="OngoingTourney">Ongoing Tournaments</h4>
-                    </div>
-                    <div className="RecentTourneyPost">
-                        <h4 id="Recent">Recent Tourney</h4>
+
+                    <div className="BottomPart">
+                        <div className="OngoingTournamentBox">
+                            <h4 id="OngoingTourney">Ongoing Tournaments</h4>
+                        </div>
+                        <div className="RecentTourneyPost">
+                            <h4 id="Recent">Recent Tourney</h4>
+                        </div>
                     </div>
                     
                 </div>
