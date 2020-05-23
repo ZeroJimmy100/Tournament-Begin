@@ -1,0 +1,35 @@
+#form2{
+	font-family:verdana;
+	font-size:20px;
+	color:#142170;
+    text-align: right;
+    padding-left: 50%;
+    width: 500px;
+    
+	
+}
+#form1{
+    text-align: left;
+    width: 25%;
+    padding-left: 20%;
+}
+.intro-body{
+
+
+}
+#intro1{
+    text-align: right;
+    font-family:verdana;
+    font-size:20px;
+    width: 500px;
+    padding-left: 50%;
+
+}
+#intro2{
+    text-align: right;
+    font-family:verdana;
+    font-size:30px;
+    width: 600px;
+    padding-left: 50%;
+
+}
