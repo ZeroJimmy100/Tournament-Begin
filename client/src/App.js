@@ -25,6 +25,9 @@ function App() {
               <a href="/">Friends</a>
               <a href="/">My Forum</a>
               <a href="/">Add Forum</a>
+              <a href="/Forum-Page">Forum</a>
+              <a href="/">Contact</a>
+              <a href="/">Support</a>
             </Navigation>
         </Drawer>
         <Content>
