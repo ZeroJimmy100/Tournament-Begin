@@ -5,6 +5,8 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Home from './views/Home';
 import ForumPage from './views/ForumPage';
 import HomeReturnUser from './views/HomeReturnUser';
+import LoginRegistration from './views/LoginRegistration';
+
 
 function App() {
   return (
@@ -36,6 +38,7 @@ function App() {
                 <Home path="/" />
                 <HomeReturnUser path="/1" />
                 <ForumPage path="/Forum-Page"/>
+                <LoginRegistration path="/LoginRegistration"/>
               </Router>
             </div>
         </Content>
