@@ -9,7 +9,7 @@ class Home extends Component {
         return(
             <div className="category-tabs">
                 <div className="background">
-                    <h1> WELCOME! user</h1>
+                    <h1> WELCOME! Asshole</h1>
                     <div className="TopPart">
                         <div className="TopThreeTourneyBox">
                             <h4 id="TopThree">Top Three Tournament</h4>
