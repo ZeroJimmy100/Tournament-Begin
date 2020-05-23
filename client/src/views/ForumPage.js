@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab } from 'react-mdl';
 
-class FourmPage extends Component {
+class ForumPage extends Component {
     constructor(props) {
         super(props);
         this.state = { activeTab: 0 };
@@ -64,4 +64,4 @@ class FourmPage extends Component {
     }
 }
 
-export default FourmPage;
+export default ForumPage;
