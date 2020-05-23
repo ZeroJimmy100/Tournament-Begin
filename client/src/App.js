@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
     <Layout>
-        <Header title={<Link style={{textDecoration: 'none', color: 'white'}} to="/"> <i class="fa fa-trophy" aria-hidden="true" width="50"> Tournament Begin </i></Link>} scroll>
+        <Header title={<Link style={{textDecoration: 'none', color: 'white'}} to="/"> <i class="fa fa-trophy" aria-hidden="true" width="50"> Tournament Begins </i></Link>} scroll>
             <Navigation>
               <a href="/">Contact</a>
               <a href="/">Support</a>
