@@ -5,10 +5,6 @@ import '../components/css/AddForum.css';
 export default () => {
     return (
         <div>
-            <div>
-                <NavBar/>
-            </div>
-            
             <h1>Add Forum</h1>
 
             
