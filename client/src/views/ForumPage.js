@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab } from 'react-mdl';
+import '../components/css/Forum.css'
 
 
 class ForumPage extends Component {
@@ -50,9 +51,6 @@ class ForumPage extends Component {
         return(
             
             <div className="category-tabs">
-                <div>
-                    <NavBar/>
-                </div>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab> One </Tab>
                     <Tab> Two </Tab>
