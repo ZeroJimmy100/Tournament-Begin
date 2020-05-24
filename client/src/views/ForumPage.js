@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab } from 'react-mdl';
 import '../components/css/Forum.css'
+import NavBar from '../components/NavBar';
 
 
 class ForumPage extends Component {
