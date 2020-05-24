@@ -27,7 +27,7 @@ export default function NavBar() {
                     <a href="/">My Tournaments</a>
                     <a href="/">Friends</a>
                     <a href="/">My Forum</a>
-                    <a href="/">Add Forum</a>
+                    <a href="/Add-Forum/player">Add Forum</a>
                     <a href="/Forum-Page">Forum</a>
                     <a href="/">Contact</a>
                     <a href="/">Support</a>
