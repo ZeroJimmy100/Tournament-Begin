@@ -6,12 +6,17 @@ import Home from './views/Home';
 import ForumPage from './views/ForumPage';
 import HomeReturnUser from './views/HomeReturnUser';
 import LoginRegistration from './views/LoginRegistration';
+
 import AddForum from './views/AddForum';
+
+import Navbar from './components/NavBar';
+
 
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Router>
         <Home path="/" />
         <HomeReturnUser path="/1" />
