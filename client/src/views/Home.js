@@ -10,9 +10,6 @@ class Home extends Component {
         return(
             <div className="category-tabs">
                 <div className="background">
-                <div>
-                    <NavBar/>
-                </div>
                     <h1> WELCOME! Asshole</h1>
 
                     <div className="TopPart">
