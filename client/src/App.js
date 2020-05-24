@@ -12,7 +12,7 @@ import Navbar from './components/NavBar';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar/>
       <Router>
         <Home path="/" />
         <HomeReturnUser path="/1" />
