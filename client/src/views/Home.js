@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Tabs, Tab } from 'react-mdl';
 import '../components/css/Home.css';
+import NavBar from '../components/NavBar';
 
 class Home extends Component {
    
@@ -9,6 +10,9 @@ class Home extends Component {
         return(
             <div className="category-tabs">
                 <div className="background">
+                    <div id="homeNav">
+                        <NavBar/>
+                    </div>
                     <h1> WELCOME! Asshole</h1>
                     <div className="TopPart">
                         <div className="TopThreeTourneyBox">
