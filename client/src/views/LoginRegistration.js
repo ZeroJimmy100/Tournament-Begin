@@ -31,9 +31,6 @@ class LoginRegistration extends Component {
                 <br></br>
 				<input type="date" id="namebox"  />
                 <br></br>
-				<input type="radio" id="r-b" name="sex" value="male" />Male
-				<input type="radio" id="r-b" name="sex" value="female" />Female
-                <br></br>
 				<p id="intro3">By clicking submit, you agree to our Terms and Conditions</p>
                 <br></br>
 				<input type="submit" class="button2" value="Create an account" />
