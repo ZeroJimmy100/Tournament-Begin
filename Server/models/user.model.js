@@ -14,12 +14,6 @@ const UserSchema = new Schema({
         type: String,
         required: [true, "Email is required"]
       },
-
-      validate: {
-        validator: val => /^([\w-\.]+@([\w-]+\.)+[\w-]+)?$/.test(val),
-        message: "Please enter a valid email"
-      },
-      
       password: {
         type: String,
         required: [true, "Password is required"],
