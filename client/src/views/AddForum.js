@@ -4,7 +4,8 @@ import '../components/css/AddForum.css';
 
 export default () => {
     return (
-        <div>
+        <div className="category-tabs">
+            
             <h1>Add Forum</h1>
 
             
