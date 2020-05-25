@@ -15,10 +15,10 @@ export default function NavBar() {
             <Layout>
                 <Header title={<Link style={{textDecoration: 'none', color: 'white'}} to="/"> <i class="fa fa-trophy" aria-hidden="true" width="50"> Tournament Begins </i></Link>} scroll>
                     <Navigation>
-                    <a href="/">Contact</a>
-                    <a href="/">Support</a>
-                    <a href="/">Account</a>
-                    <a href="/Forum-Page">Forum</a>
+                    <a className="Links" href="/">Contact</a>
+                    <a className="Links" href="/">Support</a>
+                    <a className="Links" href="/">Account</a>
+                    <a className="Links" href="/Forum-Page">Forum</a>
                     </Navigation>
                 </Header>
                 <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/"> <i class="fa fa-trophy" aria-hidden="true" width="50"> Home </i></Link>}>
