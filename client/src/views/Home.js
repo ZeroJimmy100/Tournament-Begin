@@ -9,6 +9,7 @@ class Home extends Component {
     render() {
         return(
             <div className="category-tabs">
+                
                 <div className="background">
                     <h1 className="WelcomeText"> WELCOME! Asshole</h1>
 
